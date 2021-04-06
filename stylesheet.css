@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    background-color: #f1f1f1;
+
     text-align: center;
     height: 50px;
     padding: 20px;
@@ -19,7 +19,7 @@ body {
 }
 
 .hheader {
-    background-color: #333;
+
     height: 40px;
     overflow: hidden;
 }
@@ -27,14 +27,14 @@ body {
 .hheader a {
     float: left;
 
-    color: #f2f2f2;
+
     text-align: center;
     padding: 14px 16px;
 
 }
 
 .hheader a:hover {
-    background-color: #ddd;
+
     color: black;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .colom.left {
-    background-color:cornsilk;
+
     height: 100%;
     width: 60%;
     float: left;
@@ -51,7 +51,7 @@ body {
 }
 
 .colom.right {
-    background-color: cornsilk;
+
     height: 100%;
     width: 40%;
     text-align: left;
@@ -59,7 +59,7 @@ body {
 }
 
 .footer {
-    background-color:darkgray;
+
     height: 56px;
     overflow: hidden;
 
