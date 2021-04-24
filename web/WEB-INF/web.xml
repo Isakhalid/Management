@@ -3,4 +3,32 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
+
+
+    <servlet>
+        <servlet-name>Servlet_file</servlet-name> <!-- Should be the name of your Servlet-->
+        <servlet-class>servlet.Servlet_file</servlet-class> <!-- Should be the path of your Servlet-->
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>Servlet_file</servlet-name> <!-- Should be the name of your Servlet which you have given inside servlet tag-->
+        <url-pattern>/Servlet_signup/*</url-pattern><!-- as desired but should be inside /../* -->
+    </servlet-mapping>
+
+
+    <filter>
+        <filter-name>Filter_file</filter-name>
+        <filter-class>filter.Filter_file</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>Filter_file</filter-name>
+        <url-pattern>/Servlet_signup</url-pattern>
+    </filter-mapping>
+
+
+
+
+
 </web-app>
