@@ -20,6 +20,7 @@ public class Filter_file implements Filter {
         if (ip.matches("0:0:0:0:0:0:0:2")) {
             pw.write("localhost is Blocked!");
         } else {
+
             chain.doFilter(req, resp);
         }
     }

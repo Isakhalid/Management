@@ -25,7 +25,7 @@ public class DbConnection {
         try {
             String sqlQuery = "INSERT INTO signup(name,username,email,password,dateofbirth,gender) VALUES(?,?,?,?,?,?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sqlQuery);
-            preparedStatement.setString(1, name);
+            preparedStatement.setString(1,name);
             preparedStatement.setString(2,username);
             preparedStatement.setString(3,email);
             preparedStatement.setString(4,password);
